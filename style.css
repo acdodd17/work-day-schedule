@@ -26,15 +26,10 @@ textarea{
 }
 
 .time-block{
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   border-radius: 15px;
 }
 
-.time-block p {
-  text-align: center;
-  margin: 0;
-}
 
 .row {
   white-space: pre-wrap;
@@ -46,10 +41,6 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  text-align: center;
-  margin: 1px;
-  display: flex;
-  justify-content: center;
 }
 
 .past {
@@ -68,23 +59,11 @@ textarea{
 }
 
 .saveBtn {
-  width: 100%;
-  height: 100%;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  padding: 5px;
   background-color: #06AED5;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.saveBtn i {
-  color: white;
-  padding: 5px;
-
 }
 
 .saveBtn i :hover {
