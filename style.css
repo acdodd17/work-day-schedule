@@ -1,8 +1,26 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
   font-size: 16px;
   line-height: 1;
+  background: transparent;
+  background-image: linear-gradient(45deg, #a2e6f7 0%, #cbf1fa 52%, #e7f2f5 90%);
 }
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#currentDay {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent;
+  }
 
 textarea{
   background: transparent;
@@ -30,11 +48,14 @@ textarea{
   border-radius: 15px;
 }
 
+textarea, .saveBtn, .hour {
+  height: 100%;
+}
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
