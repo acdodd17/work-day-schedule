@@ -45,7 +45,7 @@ var timeTracker = function () {
         }
         else {
             $(this).removeClass("past");
-            $(this).addClass("present");
+            $(this).removeClass("present");
             $(this).addClass("future");
         }
     })
